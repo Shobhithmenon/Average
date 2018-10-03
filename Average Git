@@ -1,0 +1,28 @@
+//
+//  main.cpp
+//  NumChanger
+//
+//  Created by Shobhith M on 03/10/18.
+//  Copyright © 2018 Shobhicode. All rights reserved.
+//
+
+#include <iostream>
+using namespace std;
+int main() {
+    int master;
+    float a,sum,avg,count;
+    cout<<"\nWelcome to the Averager\n";
+    //welcoming user
+    master=1;
+    sum=0;
+    avg=0;
+    count=0;
+    while (master==1) {
+        count++;
+        cout<<"Enter the number";
+        cin>>a;
+        sum=sum+a;
+        cout<<"Do You have another entry? \n Enter 1 for Yes\n Enter 2 for No\n";
+        cin>>master;}
+    avg=sum/count;
+    cout<<"\nThe Average of the numbers you entered is......\t"<<avg;}
