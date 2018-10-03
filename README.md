@@ -1,0 +1,2 @@
+# Average
+average calculator Dynamic
